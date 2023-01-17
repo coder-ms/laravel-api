@@ -5,8 +5,8 @@
     <div class="containerx">
         <div class="cardShow">
             <div class="cardImageShow">
-                <img src="{{asset('storage/' . $post->cover_image)}}" alt="">
-                {{--dd(asset('storage/' . $post->cover_image) );--}}
+                <img src="{{asset('storage/app/public/' . $post->cover_image)}}" alt="">
+                {{--dd(asset('storage/app/public/' . $post->cover_image) );--}}
             </div>
               <div class="cardDescriptionShow">
                 <p>{{$post->content}}</p>
