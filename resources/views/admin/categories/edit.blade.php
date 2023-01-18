@@ -12,7 +12,7 @@
             </div>
             @endif
         </div> --}}
-        <h1>Edit Category: {{$category->name}}</h1>
+        <h1 class="text-center">Edit Category: {{$category->name}}</h1>
         <div class="row bg-white">
             <div class="col-12">
                 <form action="{{route('admin.categories.update', $category->slug)}}" method="POST" enctype="multipart/form-data" class="p-4">

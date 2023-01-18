@@ -1,11 +1,11 @@
 @extends('layouts.admin')
 
 @section('content')
-    <h1>{{$post->title}}</h1>
+    <h1 class="text-center">{{$post->title}}</h1>
     <div class="containerx">
         <div class="cardShow">
             <div class="cardImageShow">
-                <img src="{{asset('storage/app/public/' . $post->cover_image)}}" alt="">
+                <img src="{{asset('storage/app/public/post_images/' . $post->cover_image)}}" alt="">
                 {{--dd(asset('storage/app/public/' . $post->cover_image) );--}}
             </div>
               <div class="cardDescriptionShow">

@@ -1,7 +1,7 @@
 @extends('layouts.admin')
 
 @section('content')
-    <h1>Tags / Technologies</h1>
+    <h1 class="text-center">Tags / Technologies</h1>
     {{-- <div class="text-end">
         <a class="btn btn-success" href="route('admin.tags.create')">Crea nuova tag</a>
     </div> --}}
