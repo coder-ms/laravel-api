@@ -22,7 +22,7 @@ class PostTableSeeder extends Seeder
             $post->title = $faker->words(3, true);
             $post->slug = Str::slug($post->title, '-');
             $post->content = $faker->paragraph();
-            $post->category_id = 1;
+            $post->category_id = $faker->words(4, true);
             $post->link_git = $faker->url();
             $post->lvl_diff = $faker->numberBetween(1,10);
             $post->save();

@@ -1,12 +1,12 @@
 @extends('layouts.admin')
 
 @section('content')
-    <h1 class="text-center">{{$post->title}}</h1>
+    <h1>{{$post->title}}</h1>
     <div class="containerx">
         <div class="cardShow">
             <div class="cardImageShow">
+                {{-- {{dd($post)}} --}}
                 <img src="{{asset('storage/' . $post->cover_image)}}" alt="">
-                {{--dd(asset('storage/app/public/' . $post->cover_image) );--}}
             </div>
               <div class="cardDescriptionShow">
                 <p>{{$post->content}}</p>
@@ -35,5 +35,7 @@
     </div>
 
 @endsection
+
+
 
 
