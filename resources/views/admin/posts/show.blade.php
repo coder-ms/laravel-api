@@ -1,7 +1,7 @@
 @extends('layouts.admin')
 
 @section('content')
-    <h1>{{$post->title}}</h1>
+    <h1 class="text-center">{{$post->title}}</h1>
     <div class="containerx">
         <div class="cardShow">
             <div class="cardImageShow">
