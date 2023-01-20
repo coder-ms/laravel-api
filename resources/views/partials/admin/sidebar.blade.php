@@ -27,11 +27,12 @@
                 </a>
             </li>
 
-            <li class="nav-item">
+            
+            {{-- <li class="nav-item">
                 <a class="nav-link text-white" href="#">
                     <i class="fa-solid fa-users fa-lg fa-fw"></i> Users
                 </a>
-            </li>
+            </li> --}}
             @endif
         </ul>
     </nav>
